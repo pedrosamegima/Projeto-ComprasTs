@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SessaocomparasComponent } from './sessaocomparas/sessaocomparas.component';
+import { SessaocomparasComponent } from './sessaocompras/sessaocomparas.component';
+import{HttpClientModule}from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { SessaocomparasComponent } from './sessaocomparas/sessaocomparas.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

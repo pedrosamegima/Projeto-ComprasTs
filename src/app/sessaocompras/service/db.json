@@ -1,0 +1,12 @@
+{
+  "produtos": [
+    
+        {
+          "img": "../../assets/oleo.jpg",
+          "nome": "Oleo de soja ",
+          "valor": 20,
+          "descricao": "oleo de soja 1L",
+          "id": 1
+        }
+  ]
+}
